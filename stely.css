@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+.sidebar{
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    background-color:#4c4cdf ;
+}
+.sidebar1{
+    position: absolute;
+}
+
+.img-sidebar img {
+    width: 80%;
+    border:5px solid #808080 ;
+    border-radius: 50%;
+}
+
+.img-sidebar{
+    text-align: center;
+}
+
+.sidebar1{
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+}
+
+.parent{
+    display: flex;
+}
+
+.content{
+    position: absolute;
+    left: 20%;
+    width: 80%;
+    height: 105%;
+    background-color:#808080 ;
+    overflow-y: auto;
+    padding: 0 3%; 
+}  
+
+ section.descricao{
+    position: relative;
+    top: 50%;
+    transform:translateY(-50%);
+}
+
+section.descricao h1{
+    color: white;
+    font-size: 40px;
+    font-family:'Sarala', sans-serif;;
+}
+
+section.descricao span{
+    color: #4c4cdf ;
+}
+
+section.descricao h2{
+    margin: 10PX 0;
+    color: white;
+    font-size: 26px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+section.descricao p{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.icons-social{
+    margin-top: 20px;
+} 
+
+.icons-social a{
+    text-decoration: none;
+    color: white;
+    background-color:#4c4cdf ;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 0,10px;
+    text-align: center;
+}
+
+.icons-social i{
+    line-height: 40px;
+}
+
+
+
+
+
+
